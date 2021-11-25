@@ -1,0 +1,69 @@
+<html>
+
+
+<style>
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cockpit{
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    width: 195px;
+    height: 195px;
+    border-radius: 100px 40px 50px 50px;
+    background-color: #44d2fd;
+}
+
+.cockpit::before{
+    content: ""; 
+    position: absolute;
+    z-index: 1; 
+    top: -10px;
+    left: -25;
+    width: 170px; 
+    height: 170px; 
+    border-radius: 40px;
+    background-color: #302e37;
+}
+
+.cockpit::after { 
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -60px;
+    left: -60px;
+    width: 170px;
+    height: 170px;
+    border-radius: 40px;
+    background-color: rgba(235, 228, 228, 0.068);
+    
+}
+
+
+</style>
+
+
+<head> 
+</head>
+<body>
+  <main class="helicopter">
+    <div class="cockpit"></div>
+    <div class="tail"></div>
+    <div class="main"></div>
+    <div class="rotor"></div>
+    <div class="rotator"></div>
+            <div></div>
+            <div></div>
+    </div>
+    </div>
+  </main>
+</body>
+</html>
